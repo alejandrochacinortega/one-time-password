@@ -12,7 +12,7 @@ admin.initializeApp({
 
 exports.createUser = functions.https.onRequest(createUser);
 exports.requestOneTimePassword = functions.https.onRequest(requestOneTimePassword);
-exports.requestOneTimePassword = functions.https.onRequest(verifyOneTimePassword);
+exports.verifyOneTimePassword = functions.https.onRequest(verifyOneTimePassword);
 
 
 
